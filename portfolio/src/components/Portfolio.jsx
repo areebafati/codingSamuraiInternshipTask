@@ -14,37 +14,42 @@ function Portfolio() {
         {
             id:1,
             logo:mongodb,
-            name:"MongoDB"
+            name:"MongoDB",
+            text: "i love mongo DB"
         
         },
         {
             id:2,
             logo:java,
-            name:"Java"
+            name:"Java",
+            text: "I hate JAVA"
         
         },
         {
             id:3,
             logo:python,
-            name:"Python"
+            name:"Python",
+            text: ""
         
         },
         {
             id:4,
             logo:express1,
-            name:"Express"
-        
+            name:"Express",
+            text: "",
         },
         {
             id:5,
             logo:react,
-            name:"ReactJS"
+            name:"ReactJS",
+            text: ""
         
         },
         {
             id:6,
             logo:node,
-            name:"NodeJS"
+            name:"NodeJS",
+            text:""
         
         },
 
@@ -56,12 +61,12 @@ function Portfolio() {
             <span className='underline font-bold'>Featured Projects</span>
             <div className='grid grid-cols-1 md:grid-cols-4 gap-3 my-5'>
                 {
-                    cardItem.map(({id,logo,name})=>(
-                        <div  className="md:w-[300px] md:h=[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration" key={id}>
-                            <img src={logo} className='w-[120px] h-[120px] p-1 rounded-full border-[2px]' alt="" />
+                    cardItem.map((item)=>(
+                        <div  className="md:w-[300px] md:h=[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration" key={item.id}>
+                            <img src={item.logo} className='w-[120px] h-[120px] p-1 rounded-full border-[2px]' alt="" />
                             <div>
-                                <div className='font-bold text-xl mb-2 px-2'>{name}</div>
-                                <p className='px-2 text-gray-700'>"It is a flexible, NoSQL database for scalable applications."</p>
+                                <div className='font-bold text-xl mb-2 px-2'>{item.name}</div>
+                                <p className='px-2 text-gray-700'>{item.text}</p>
                             </div>
                             <div className='px-6 py-4 justify-around space-x-3 '>
                                 <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>Video</button>
