@@ -15,41 +15,41 @@ function Portfolio() {
             id:1,
             logo:mongodb,
             name:"MongoDB",
-            text: "i love mongo DB"
+            text: "MongoDB is a flexible, NoSQL database for scalable applications."
         
         },
         {
             id:2,
             logo:java,
             name:"Java",
-            text: "I hate JAVA"
+            text: "Java is a versatile, object-oriented programming language."
         
         },
         {
             id:3,
             logo:python,
             name:"Python",
-            text: ""
+            text: "Java is a versatile, object-oriented programming language."
         
         },
         {
             id:4,
             logo:express1,
             name:"Express",
-            text: "",
+            text: "Express is a fast, minimal Node.js web application framework.",
         },
         {
             id:5,
             logo:react,
             name:"ReactJS",
-            text: ""
+            text: "React.js is a powerful library for building dynamic UIs."
         
         },
         {
             id:6,
             logo:node,
             name:"NodeJS",
-            text:""
+            text:"Node.js is a runtime for building scalable server applications."
         
         },
 
