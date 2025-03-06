@@ -50,7 +50,7 @@ function Navbar() {
                                 <Link to={text}
                                       smooth={true}
                                       duration={500}
-                                      offset={-700}
+                                    //   offset={-700}
                                       activeClass="active"
 
                                 
