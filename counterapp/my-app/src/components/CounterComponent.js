@@ -19,6 +19,8 @@ const  CounterComponent=() =>{
 
   return (
     <div>
+        <h2>Hi! I am a Pookie Counter.</h2>
+        
         <h1>{num}</h1>
         <button onClick={increase}>Increment</button>
         <button onClick={reset}>Reset</button>
